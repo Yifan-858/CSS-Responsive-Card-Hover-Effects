@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(27, 27, 27);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card-image {
+  background-color: aqua;
+  height: 300px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 13px 13px 0 0;
+}
+
+#car-1 {
+  background-image: url("./img/Moon-desk-lamp-90s-table-light-modern-vintage-Kare-design-Verner-Panton-DOM-Christian-Koban-echtvintage-echt-real.jpg");
+  background-position: 50% 25%;
+}
+
+#car-2 {
+  background-image: url("./img/58fd68c199d14dfcd18c55b80d5005f1.jpg");
+  background-position: 35% 65%;
+}
+#car-3 {
+  background-image: url("./img/b76d9cd9d8eecd3e919a991e3fe2701a.jpg");
+}
+
+.card h2 {
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card a {
+  padding: 10px 20px;
+  background-color: rgb(71, 59, 59);
+  color: aliceblue;
+  display: block;
+  text-align: center;
+  margin: 20px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: rgb(130, 120, 108);
+  color: bisque;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.5s ease;
+}
